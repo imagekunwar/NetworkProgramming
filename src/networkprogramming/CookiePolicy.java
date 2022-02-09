@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package networkprogramming;
 
-/**
- *
- * @author Dell
- */
+package networkprogramming;
+import.java.net.*;
+
 public class CookiePolicy {
+    public boolean shouldAccept(URI uri, Http Cookie Cookie){
+        if(Uri.getAuthority().toLowerCase()endsWith(".gov")||
+                Cookie.getDomin().toLowerCase().endswith(".gov"){
+        return false;
+    }
+                return true;
+    }
     
 }
