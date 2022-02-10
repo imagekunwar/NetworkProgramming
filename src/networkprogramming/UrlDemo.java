@@ -2,6 +2,9 @@
 package networkprogramming;
 import java.net.URL;
 import java.net.MalformedURLException;
+import java.io.InputStream;
+import java.io.IOException;
+import java.net.URLConnection;
 
 public class UrlDemo {
     
@@ -12,9 +15,24 @@ public class UrlDemo {
         System.out.println("Port:"+url.getPort());
         System.out.println("Host:"+url.getHost());
         System.out.println("File:"+url.getFile());
+        
+        
+        URLConnection UrlCon=url.openConnection();
+       
+            InputStream Stream=UrlCon.getInputStream();
+            
+            int i;
+            while((i=Stream.read())!=-1){
+            System.out.println((char)i);
+        }
+                    
+        
     }
         catch(MalformedURLException e){
             System.out.println("Exception handled successfully"+e);
+        }
+        catch(IOException ex){
+            System.out.println("IO exception handled");
         }
     
 }
