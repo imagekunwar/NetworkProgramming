@@ -15,8 +15,7 @@ public class HeaderViewer {
         System.out.println("Content length " + uc.getContentLength());
         System.out.println("Content Date " + uc.getDate());
         System.out.println("Content Last Modified " + uc.getLastModified());
-
+        System.out.println("Content Encoding" + uc.getContentEncoding());
+        
     }
-
-    
 }
