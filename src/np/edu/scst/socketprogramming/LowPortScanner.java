@@ -1,5 +1,6 @@
 
 package np.edu.scst.socketprogramming;
+
 import java.net.*;
 import java.io.*;
 import java.net.Socket;
@@ -12,6 +13,8 @@ public class LowPortScanner {
             try{
                 Socket s=new Socket(host,i);
                 System.out.println("There is a server on port"+i+"of"+host);
+                //s.close();
+                s.setSoTimeout(1500);
                 s.close();
             }
             catch(UnknownHostException ex){
