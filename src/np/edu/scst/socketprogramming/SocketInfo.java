@@ -3,7 +3,8 @@ package np.edu.scst.socketprogramming;
 
 import java.net.*;
 import java.io.*;
-
+//import java.net.Socket;
+//imp
 public class SocketInfo{ 
     public static void main(String[]args){
         for(String host:args){
