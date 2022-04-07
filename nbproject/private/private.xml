@@ -12,6 +12,7 @@
             <file>file:/D:/NetworkProgramming/src/np/edu/scst/socketprogramming/SocketInfo.java</file>
             <file>file:/D:/NetworkProgramming/src/networkprogramming/AllHeaders.java</file>
             <file>file:/D:/NetworkProgramming/src/np/scst/socket/chat/application/ClientSide.java</file>
+            <file>file:/D:/NetworkProgramming/src/np/scst/socket/chat/application/UDPServer.java</file>
             <file>file:/D:/NetworkProgramming/src/networkprogramming/NetworkProgramming.java</file>
             <file>file:/D:/NetworkProgramming/src/networkprogramming/GoogleAllName.java</file>
             <file>file:/D:/NetworkProgramming/src/networkprogramming/LastModified.java</file>
@@ -21,6 +22,7 @@
             <file>file:/D:/NetworkProgramming/src/networkprogramming/Network.java</file>
             <file>file:/D:/NetworkProgramming/src/networkprogramming/EstConnection.java</file>
             <file>file:/D:/NetworkProgramming/src/networkprogramming/UrlParsing.java</file>
+            <file>file:/D:/NetworkProgramming/src/np/scst/socket/chat/application/UDPClient.java</file>
             <file>file:/D:/NetworkProgramming/src/np/scst/socket/chat/application/UDPProtScanner.java</file>
             <file>file:/D:/NetworkProgramming/src/np/edu/scst/socketprogramming/DayTimeServer.java</file>
         </group>
